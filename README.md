@@ -19,7 +19,7 @@ Go to the project directory
   cd Haroldcoin-Node
 ```
 
-You now need to make a data directory where the node will save its config file as well as all of the blockchain, NFT data, etc. (Make sure it has enough space.)
+You now need to make a data directory where the node will save its config file as well as all of the blockchain, etc. (Make sure it has enough space.)
 
 ```bash
   mkdir /data/haroldcoin
