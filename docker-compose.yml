@@ -9,13 +9,9 @@ services:
     deploy:
       resources:
         limits:
-          memory: 2G
+          memory: 1G
     ports:
     - '25674:25674'
     - '25676:25676'
-      #    environment:
-      #- NODE_HOST=node
-      #- NODE_RPCPORT=6432
-      #- NODE_SRVPORT=6433
     volumes:
-      - /mnt/data/home/harold/data/:/root/.haroldcoin/
+      - /tmp/harold/data/:/root/.haroldcoin/
