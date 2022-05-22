@@ -1,0 +1,4 @@
+rpcconnect=localhost
+rpcport=25674
+rpcuser=haroldcoinrpc
+rpcpassword=BIGLONGRANDOMSTRING
